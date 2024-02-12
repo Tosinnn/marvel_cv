@@ -1,0 +1,106 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+  /* responsive body style sheet */
+@media only screen and (min-width: 1140px){
+    body {
+       font-size: 150%;     
+    }
+}
+    /* header */  
+header{
+    background-color: rgb(232,232,232);
+    padding: 1px;
+    margin: 0%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+h1 b{
+    color: rgb(160,40,40);
+}
+
+header h1{
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+}
+
+h2 {
+    color: rgb(40,88,120);
+    padding: 2px;
+    border-bottom: 1px solid #2F5A78;
+}
+
+.dpimg{
+    width: 130px;
+    float: right;  
+    transition: width 2s;
+    border: 1px solid #2F5A78;
+    border-radius: 50%;
+    margin: 3px;
+}
+   /* under review, not completed */
+     {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 3;
+    background-image: ;
+}
+
+.cncle{
+    display: none;
+}
+   /* .................. */
+   
+    /* main */
+main{
+    padding: 10px;
+}
+
+    /* section */
+section {
+    margin: 10px;
+}
+
+    /* tables */
+table{
+    width: 100%;
+}
+th{
+    background-color: rgb(40,88,120);
+    color: white;
+    padding: 5px;
+}
+
+table tr td{
+    padding: 3px;
+}
+
+table tr td img{
+    width: 30px;
+}
+
+    /* footer */
+footer{
+    background-color: rgb(232,232,232);
+    padding: 3px;
+    margin-bottom: 0px;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: #e99f4b;
+}
+
+.copyright {
+    text-align: center;
+}
